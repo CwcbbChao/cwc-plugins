@@ -1,0 +1,21 @@
+# Unity 生成的临时文件与工程文件
+[a-zA-Z0-9]*[a-zA-Z0-9]/
+*.csproj
+*.unityproj
+*.sln
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.opendb
+*.VC.db
+.DS_Store
+.DS_Store?
+thumbs.db
+
+# 系统与 IDE 缓存
+.vs/
+.idea/
+*.user

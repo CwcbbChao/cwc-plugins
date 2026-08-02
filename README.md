@@ -15,9 +15,26 @@
 | **CwcRoomBuilder / CwcNewRoomBuilder** | 关卡与房间快速构建工具 |
 | **CwcVFX** | 特效工具与视觉辅助 |
 
-## 🚀 使用方法
+## 🚀 安装与使用方法
 
-在其他 Unity 项目的 `Packages/manifest.json` 中添加依赖：
+您可以选择以下任意一种 Unity 标准方式将本项目导入到您的工程中：
+
+### 方式一：通过 Package Manager 界面添加（推荐）
+
+1. 打开 Unity 编辑器，点击顶部菜单栏 **`Window`** -> **`Package Manager`**。
+2. 点击窗口左上角的 **`+`** 加号图标。
+3. 在弹出的下拉菜单中选择 **`Add package from git URL...`**。
+4. 在文本框中粘贴下方仓库 URL 并点击 **`Add`**：
+
+```text
+https://github.com/CwcbbChao/cwc-plugins.git
+```
+
+---
+
+### 方式二：修改 manifest.json 配置文件
+
+直接打开工程目录中的 `Packages/manifest.json` 文件，在 `dependencies` 节点下添加对应配置：
 
 ```json
 {
@@ -26,3 +43,8 @@
   }
 }
 ```
+
+## 🔄 更新检查与升级
+
+本项目默认追踪 `main` 主分支：
+* 当远程仓库有新功能发布或 Bug 修复时，在 Unity 的 **Package Manager** 窗口中选中 **Cwcbb Plugins**，直接点击右下角的 **`Update`** 按钮即可一键升级至最新代码。

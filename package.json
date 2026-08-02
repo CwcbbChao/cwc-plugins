@@ -4,6 +4,9 @@
   "displayName": "Cwcbb Plugins",
   "description": "Cwcbb 的通用 Unity 工具库与框架集合（支持 Unity 2021.3+ 及 Unity 6 等版本）",
   "unity": "2021.3",
+  "dependencies": {
+    "com.unity.addressables": "1.21.19"
+  },
   "author": {
     "name": "Cwcbb"
   }

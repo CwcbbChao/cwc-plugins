@@ -14,7 +14,6 @@
 | **CwcRemoteControl** | 远程控制与调试命令注入 |
 | **CwcRoomBuilder / CwcNewRoomBuilder** | 关卡与房间快速构建工具 |
 | **CwcVFX** | 特效工具与视觉辅助 |
-| **CwcVRM** | VRM 模型与碰撞体逻辑扩展 |
 
 ## 🚀 使用方法
 
@@ -23,7 +22,7 @@
 ```json
 {
   "dependencies": {
-    "com.cwcbb.plugins": "https://github.com/CwcbbChao/cwc-plugins.git#v1.0.0"
+    "com.cwcbb.plugins": "https://github.com/CwcbbChao/cwc-plugins.git#v1.0.1"
   }
 }
 ```

@@ -1,0 +1,16 @@
+{
+    "name": "CwcUIFramework",
+    "rootNamespace": "Cwcbb.Tools.CwcUIFramework",
+    "references": [
+        "Unity.UGUI"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

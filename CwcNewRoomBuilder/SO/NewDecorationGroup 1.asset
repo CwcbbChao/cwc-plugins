@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 811ccebadd3a55a489fbf4e6e7f39feb, type: 3}
+  m_Name: NewDecorationGroup 1
+  m_EditorClassIdentifier: 
+  _layer:
+    serializedVersion: 2
+    m_Bits: 0
+  _decorations:
+  - _prefab: {fileID: 0}
+    _weight: 0
+    _positionOffset: {x: 0, y: 0, z: 0}
+    _rotationOffset: {x: 0, y: 0, z: 0}
+    _allowedSlots: []
+    _amountRange: {x: 0, y: 0}
+    _spacing: 0
+    _scaleRange: {x: 0, y: 0}
+    _randomRotationY: 0

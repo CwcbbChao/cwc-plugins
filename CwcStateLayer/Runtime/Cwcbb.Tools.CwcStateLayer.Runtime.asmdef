@@ -1,0 +1,14 @@
+{
+    "name": "Cwcbb.Tools.CwcStateLayer.Runtime",
+    "rootNamespace": "Cwcbb.Tools.CwcStateLayer",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

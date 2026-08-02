@@ -1,5 +1,16 @@
-# Unity 生成的临时文件与工程文件
-[a-zA-Z0-9]*[a-zA-Z0-9]/
+# Unity 项目与临时文件
+[a-zA-Z0-9]*[a-zA-Z0-9]_Data/
+Library/
+Temp/
+Obj/
+Build/
+Builds/
+Logs/
+MemoryCaptures/
+
+# IDE 与系统文件
+.vs/
+.idea/
 *.csproj
 *.unityproj
 *.sln
@@ -14,8 +25,3 @@
 .DS_Store
 .DS_Store?
 thumbs.db
-
-# 系统与 IDE 缓存
-.vs/
-.idea/
-*.user

@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f6234073a0d8ba4382632d8ade662cd, type: 3}
+  m_Name: Wall01
+  m_EditorClassIdentifier: 
+  _layer:
+    serializedVersion: 2
+    m_Bits: 67108864
+  _supportedDirections: 60
+  _elements:
+  - _prefab: {fileID: 3321048102028806033, guid: d471fd7f6aa94d947b5deb88a14cf82e,
+      type: 3}
+    _positionOffset: {x: -1, y: 0, z: 0.2}
+    _rotationOffset: {x: 0, y: 90, z: 0}
+    _scaleOverride: {x: 1, y: 1, z: 1}
+    _random90DegreeRotation: 0
+    _weight: 100
+  - _prefab: {fileID: 1332742597310496053, guid: 8dec93341409c6d4ab2495641151927e,
+      type: 3}
+    _positionOffset: {x: -1, y: 0, z: 0.2}
+    _rotationOffset: {x: 0, y: 90, z: 0}
+    _scaleOverride: {x: 1, y: 1, z: 1}
+    _random90DegreeRotation: 0
+    _weight: 8
+  - _prefab: {fileID: 3644674350460125221, guid: a465b589c0947164ba389513c1add19e,
+      type: 3}
+    _positionOffset: {x: -1, y: 0, z: 0.2}
+    _rotationOffset: {x: 0, y: 90, z: 0}
+    _scaleOverride: {x: 1, y: 1, z: 1}
+    _random90DegreeRotation: 0
+    _weight: 8
+  _providedSlotType: {fileID: 0}

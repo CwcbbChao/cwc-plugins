@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13c4e31a58f62d84db2c312733dcffc6, type: 3}
+  m_Name: Test
+  m_EditorClassIdentifier: 
+  _layerId: MainLayer
+  _layerName: "\u4E3B\u72B6\u6001\u5C42"
+  _nodes:
+  - _stateId: "\u5DCD\u5CE8\u59D4\u5C48"
+    _stateName: 
+    _subLayerConfig: {fileID: 0}
+  - _stateId: "23\u4E3A"
+    _stateName: 
+    _subLayerConfig: {fileID: 0}
+  - _stateId: "\u70ED\u5C14\u592A\u70ED"
+    _stateName: 
+    _subLayerConfig: {fileID: 0}

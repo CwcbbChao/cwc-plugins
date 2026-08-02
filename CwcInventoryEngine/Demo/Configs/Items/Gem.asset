@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 552c7fd4138980249b4e8c518a7184f1, type: 3}
+  m_Name: Gem
+  m_EditorClassIdentifier: 
+  maxStack: 99
+  ComponentDefinitions:
+  - rid: 3049998458292797699
+  - rid: 3049998490170818711
+  references:
+    version: 2
+    RefIds:
+    - rid: 3049998458292797699
+      type: {class: ItemDisplayComponentDefinition, ns: Cwc.InventoryEngine, asm: Cwc.InventoryEngine.Runtime}
+      data:
+        _displayName: "\u7EFF\u5B9D\u77F3"
+        _icon: {fileID: 21300000, guid: f35bf0e957f77a1408aa2ae82d79c0ac, type: 3}
+        _description: "\u8FD8\u6709\u7EA2\u5B9D\u77F3\u548C\u84DD\u5B9D\u77F3!"
+    - rid: 3049998490170818711
+      type: {class: ItemCategoryComponentDefinition, ns: Cwc.InventoryEngine, asm: Cwc.InventoryEngine.Runtime}
+      data:
+        _categories:
+        - {fileID: 11400000, guid: a0ea8f64a49b6c049a004e43e70de612, type: 2}

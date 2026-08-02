@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c387f4c84ac7c144905b2ec0f17d90f, type: 3}
+  m_Name: Test01
+  m_EditorClassIdentifier: 
+  floorTiles:
+  - prefab: {fileID: 3170428718409001149, guid: b56057857bcd57448b07ee8c7742cc4a,
+      type: 3}
+    weight: 1
+    positionOffset: {x: -1.25, y: 0, z: -1.25}
+    rotationOffset: {x: 0, y: 0, z: 0}
+    allowDecor: 1
+    alignToSurface: 1
+    tileLayer:
+      serializedVersion: 2
+      m_Bits: 0
+    scaleOverride:
+      value: {x: 0.8, y: 0.8, z: 0.8}
+      locked: 1
+    randomRotation: 0
+  wallTiles:
+  - prefab: {fileID: 7358769317474138161, guid: 2dbeeb70c733a7b47b16edb373b66b9f,
+      type: 3}
+    weight: 100
+    positionOffset: {x: 0, y: 0, z: 0.1}
+    rotationOffset: {x: 0, y: 0, z: 0}
+    allowDecor: 0
+    alignToSurface: 0
+    tileLayer:
+      serializedVersion: 2
+      m_Bits: 0
+    scaleOverride:
+      value: {x: 1, y: 1, z: 1}
+      locked: 1
+  wallCorners: []
+  roofTiles: []
+  doorTiles: []
+  floorDecorations:
+  - prefab: {fileID: 3008229226220289300, guid: f6ea45eb8e563f44795f18b6529012e8,
+      type: 3}
+    positionOffset: {x: 0, y: 0, z: 0}
+    rotationOffset: {x: 0, y: 0, z: 0}
+    scaleOverride:
+      value: {x: 1, y: 1, z: 1}
+      locked: 1
+    spacing: 1
+    safeArea: 1
+    scaleRange: {x: 1, y: 1}
+    randomRotation: 0
+    amountRange: {x: 1, y: 3}
+    verticalRange: {x: 0, y: 5}
+  - prefab: {fileID: 478312307977292231, guid: e3d29de2812fd1941935a3a9a0448544, type: 3}
+    positionOffset: {x: 0, y: 0, z: 0}
+    rotationOffset: {x: 0, y: 0, z: 0}
+    scaleOverride:
+      value: {x: 1, y: 1, z: 1}
+      locked: 1
+    spacing: 1
+    safeArea: 1
+    scaleRange: {x: 1, y: 1}
+    randomRotation: 0
+    amountRange: {x: 1, y: 3}
+    verticalRange: {x: 0, y: 5}
+  - prefab: {fileID: 505259117047001401, guid: b1e34e2f710371a44988c29c1d029dc2, type: 3}
+    positionOffset: {x: 0, y: 0, z: 0}
+    rotationOffset: {x: 0, y: 0, z: 0}
+    scaleOverride:
+      value: {x: 1, y: 1, z: 1}
+      locked: 1
+    spacing: 1
+    safeArea: 1
+    scaleRange: {x: 1, y: 1}
+    randomRotation: 360
+    amountRange: {x: 5, y: 10}
+    verticalRange: {x: 0, y: 5}
+  - prefab: {fileID: 5450551322752577850, guid: e1dcb432ff19d044389f4c2d6e409618,
+      type: 3}
+    positionOffset: {x: 0, y: 0, z: 0}
+    rotationOffset: {x: 0, y: 0, z: 0}
+    scaleOverride:
+      value: {x: 1, y: 1, z: 1}
+      locked: 1
+    spacing: 1
+    safeArea: 1
+    scaleRange: {x: 1, y: 1}
+    randomRotation: 360
+    amountRange: {x: 1, y: 20}
+    verticalRange: {x: 0, y: 5}
+  - prefab: {fileID: 5024233649244510596, guid: edfb5da469d0de64fb8a281ce359ab73,
+      type: 3}
+    positionOffset: {x: 0, y: 0, z: 0}
+    rotationOffset: {x: 0, y: 0, z: 0}
+    scaleOverride:
+      value: {x: 1, y: 1, z: 1}
+      locked: 1
+    spacing: 1
+    safeArea: 1
+    scaleRange: {x: 1, y: 1}
+    randomRotation: 360
+    amountRange: {x: 1, y: 3}
+    verticalRange: {x: 0, y: 5}
+  wallDecorations: []
+  roofDecorations: []
+  characters: []

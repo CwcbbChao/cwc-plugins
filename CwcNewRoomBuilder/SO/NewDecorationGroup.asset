@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 811ccebadd3a55a489fbf4e6e7f39feb, type: 3}
+  m_Name: NewDecorationGroup
+  m_EditorClassIdentifier: 
+  _layer:
+    serializedVersion: 2
+    m_Bits: 256
+  _decorations:
+  - _prefab: {fileID: 3008229226220289300, guid: f6ea45eb8e563f44795f18b6529012e8,
+      type: 3}
+    _positionOffset: {x: 0, y: 0, z: 0}
+    _rotationOffset: {x: 0, y: 0, z: 0}
+    _amountRange: {x: 1, y: 2}
+    _spacing: 0
+    _scaleRange: {x: 0.9, y: 1.1}
+    _randomRotationY: 360
+    _isVolumeObject: 0
+    _avoidVolumeObjects: 0
+  - _prefab: {fileID: 5372305685179070602, guid: 175cb3a5987c1c84dbf9f443d646a579,
+      type: 3}
+    _positionOffset: {x: 0, y: 0, z: 0}
+    _rotationOffset: {x: 0, y: 0, z: 0}
+    _amountRange: {x: 3, y: 4}
+    _spacing: 0
+    _scaleRange: {x: 0.9, y: 1.1}
+    _randomRotationY: 360
+    _isVolumeObject: 0
+    _avoidVolumeObjects: 0
+  - _prefab: {fileID: 5024233649244510596, guid: edfb5da469d0de64fb8a281ce359ab73,
+      type: 3}
+    _positionOffset: {x: 0, y: 0, z: 0}
+    _rotationOffset: {x: 0, y: 0, z: 0}
+    _amountRange: {x: 2, y: 4}
+    _spacing: 0
+    _scaleRange: {x: 0.9, y: 1.1}
+    _randomRotationY: 360
+    _isVolumeObject: 0
+    _avoidVolumeObjects: 0
+  - _prefab: {fileID: 6524942184181528244, guid: 2e400152e995fac4b82b7595ab280aba,
+      type: 3}
+    _positionOffset: {x: 0, y: 0.01, z: 0}
+    _rotationOffset: {x: 0, y: 0, z: 0}
+    _amountRange: {x: 2, y: 6}
+    _spacing: 1
+    _scaleRange: {x: 0.9, y: 1.1}
+    _randomRotationY: 360
+    _isVolumeObject: 0
+    _avoidVolumeObjects: 0
+  - _prefab: {fileID: 4322936956164513140, guid: 2ab9b49bdb454244281500fec2b9d40a,
+      type: 3}
+    _positionOffset: {x: 0, y: 0.01, z: 0}
+    _rotationOffset: {x: 0, y: 0, z: 0}
+    _amountRange: {x: 6, y: 6}
+    _spacing: 1
+    _scaleRange: {x: 0.9, y: 1.1}
+    _randomRotationY: 360
+    _isVolumeObject: 0
+    _avoidVolumeObjects: 0
+  _allowedSlots:
+  - {fileID: 11400000, guid: 58e1b45d4785c1c42a82181af7c9dbd9, type: 2}
+  _providedSlotType: {fileID: 0}

@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 552c7fd4138980249b4e8c518a7184f1, type: 3}
+  m_Name: Potion
+  m_EditorClassIdentifier: 
+  maxStack: 10
+  ComponentDefinitions:
+  - rid: 3049998461474701483
+  - rid: 3049998461474701484
+  - rid: 3049998490170818714
+  references:
+    version: 2
+    RefIds:
+    - rid: 3049998461474701483
+      type: {class: ItemDisplayComponentDefinition, ns: Cwc.InventoryEngine, asm: Cwc.InventoryEngine.Runtime}
+      data:
+        _displayName: "\u836F\u6C34"
+        _icon: {fileID: 21300000, guid: 10009e7e6f031c348906d5104077c907, type: 3}
+        _description: "\u5B83\u597D\u559D\u5417\uFF1F\n"
+    - rid: 3049998461474701484
+      type: {class: DemoPotionComponentDefinition, ns: Cwc.InventoryEngine.Demo, asm: Assembly-CSharp}
+      data:
+        _healAmount: 5
+    - rid: 3049998490170818714
+      type: {class: ItemCategoryComponentDefinition, ns: Cwc.InventoryEngine, asm: Cwc.InventoryEngine.Runtime}
+      data:
+        _categories:
+        - {fileID: 11400000, guid: 66dba988f8c0f7d4aa8a289136b6ca0d, type: 2}

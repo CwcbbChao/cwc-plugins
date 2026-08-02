@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f6234073a0d8ba4382632d8ade662cd, type: 3}
+  m_Name: NewStructureGroup
+  m_EditorClassIdentifier: 
+  _layer:
+    serializedVersion: 2
+    m_Bits: 512
+  _supportedDirections: 2
+  _elements:
+  - _prefab: {fileID: 3834676996378549697, guid: 634bf9b79b84cd341b29fb748e4ce59f,
+      type: 3}
+    _positionOffset: {x: 0, y: 0, z: 0}
+    _rotationOffset: {x: 0, y: 0, z: 0}
+    _scaleOverride: {x: 1, y: 1, z: 1}
+    _random90DegreeRotation: 1
+    _weight: 100
+  _providedSlotType: {fileID: 11400000, guid: 58e1b45d4785c1c42a82181af7c9dbd9, type: 2}

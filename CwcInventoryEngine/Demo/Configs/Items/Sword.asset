@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 552c7fd4138980249b4e8c518a7184f1, type: 3}
+  m_Name: Sword
+  m_EditorClassIdentifier: 
+  maxStack: 1
+  ComponentDefinitions:
+  - rid: 3049998458292797702
+  - rid: 3049998458292797703
+  - rid: 3049998461474701717
+  references:
+    version: 2
+    RefIds:
+    - rid: 3049998458292797702
+      type: {class: ItemDisplayComponentDefinition, ns: Cwc.InventoryEngine, asm: Cwc.InventoryEngine.Runtime}
+      data:
+        _displayName: "\u5355\u624B\u5251"
+        _icon: {fileID: 21300000, guid: 9f23f0a563774af45a87772fcc5bb7f4, type: 3}
+        _description: "\u4F3C\u4E4E\u4E0D\u592A\u950B\u5229...\n"
+    - rid: 3049998458292797703
+      type: {class: DemoDurabilityComponentDefinition, ns: Cwc.InventoryEngine.Demo,
+        asm: Assembly-CSharp}
+      data:
+        _maxDurability: 100
+    - rid: 3049998461474701717
+      type: {class: DemoEquipmentComponentDefinition, ns: Cwc.InventoryEngine.Demo,
+        asm: Assembly-CSharp}
+      data:
+        _equipmentCategory: {fileID: 11400000, guid: ec1f7c951a8caac45acd6b168cadb041,
+          type: 2}
+        _requiredLevel: 1
+        _attackBonus: 10
+        _defenseBonus: 0

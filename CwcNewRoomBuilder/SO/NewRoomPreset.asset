@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 927fb6357b29bd44fa42307ea4c89a74, type: 3}
+  m_Name: NewRoomPreset
+  m_EditorClassIdentifier: 
+  _structureGroups:
+  - {fileID: 11400000, guid: ee9c65fc761168b408158b2442355ee0, type: 2}
+  - {fileID: 11400000, guid: 5da99f440aea0154f935749f5158063c, type: 2}
+  _decorationGroups:
+  - {fileID: 11400000, guid: dd372dfcc4d86f346874d060b5597eff, type: 2}

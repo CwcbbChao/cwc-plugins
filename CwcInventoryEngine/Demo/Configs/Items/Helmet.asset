@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 552c7fd4138980249b4e8c518a7184f1, type: 3}
+  m_Name: Helmet
+  m_EditorClassIdentifier: 
+  maxStack: 1
+  ComponentDefinitions:
+  - rid: 3049998461474701995
+  - rid: 3049998461474701996
+  - rid: 3049998461474701997
+  references:
+    version: 2
+    RefIds:
+    - rid: 3049998461474701995
+      type: {class: ItemDisplayComponentDefinition, ns: Cwc.InventoryEngine, asm: Cwc.InventoryEngine.Runtime}
+      data:
+        _displayName: "\u94C1\u5934\u76D4"
+        _icon: {fileID: 21300000, guid: 6e8b5c64553b9b14c892ba27e51b866c, type: 3}
+        _description: "\u770B\u4E0D\u89C1\u4E86...\n"
+    - rid: 3049998461474701996
+      type: {class: DemoDurabilityComponentDefinition, ns: Cwc.InventoryEngine.Demo,
+        asm: Assembly-CSharp}
+      data:
+        _maxDurability: 100
+    - rid: 3049998461474701997
+      type: {class: DemoEquipmentComponentDefinition, ns: Cwc.InventoryEngine.Demo,
+        asm: Assembly-CSharp}
+      data:
+        _equipmentCategory: {fileID: 11400000, guid: 6a8892517c208454f86d7a0ec66cf36b,
+          type: 2}
+        _requiredLevel: 1
+        _attackBonus: 0
+        _defenseBonus: 5

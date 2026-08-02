@@ -23,7 +23,7 @@
 ```json
 {
   "dependencies": {
-    "com.cwcbb.plugins": "https://github.com/your-username/cwc-plugins.git#v1.0.0"
+    "com.cwcbb.plugins": "https://github.com/CwcbbChao/cwc-plugins.git#v1.0.0"
   }
 }
 ```
